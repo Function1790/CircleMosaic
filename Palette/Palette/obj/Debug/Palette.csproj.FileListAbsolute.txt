@@ -1,0 +1,28 @@
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\bin\Debug\Palette.exe
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\bin\Debug\Palette.pdb
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Window1.baml
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\App.g.cs
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette_MarkupCompile.cache
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette.g.resources
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette.Properties.Resources.resources
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette.exe
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette.pdb
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\Palette_MarkupCompile.lref
+C:\Documents and Settings\Administrator\바탕 화면\Palette\Palette\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette.exe
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette.pdb
+E:\일반자료\프로그래밍관련\Palette\Palette\bin\Debug\Palette.exe
+E:\일반자료\프로그래밍관련\Palette\Palette\bin\Debug\Palette.pdb
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\ResolveAssemblyReference.cache
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Window1.g.cs
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\App.g.cs
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette_MarkupCompile.cache
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette_MarkupCompile.lref
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Window1.baml
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette.g.resources
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette.Properties.Resources.resources
+E:\일반자료\프로그래밍관련\Palette\Palette\obj\Debug\Palette.csproj.GenerateResource.Cache

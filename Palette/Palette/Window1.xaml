@@ -1,0 +1,36 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:palette="clr-namespace:Palette"
+    x:Class="Palette.Window1"
+    Title="Window1" Height="500" Width="700" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    
+    <Window.Resources>
+        <palette:ColorBrushConverter x:Key="ColorConverter"/>
+        <palette:InkColorConverter x:Key="InkColorConverter"/>
+    </Window.Resources>
+    
+    <Grid>
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="0.5*"/>
+    		<ColumnDefinition Width="0.5*"/>
+    	</Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="0">
+            <Menu DockPanel.Dock="Top" HorizontalAlignment="Stretch" BorderThickness="1,1,1,1" BorderBrush="#FF000000">
+                <MenuItem Header="File">
+                    <MenuItem Header="Open" Click="FileOpen"/>
+                    <MenuItem Header="Exit" Click="Exit"/>
+                </MenuItem>
+            </Menu>
+            
+            <palette:ImagePixelColor Source="Palette.png" Stretch="Fill" Grid.ColumnSpan="1" x:Name="Palette" DockPanel.Dock="Left"/>
+        </DockPanel>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" BorderBrush="#FF000000" BorderThickness="2,2,2,2" Margin="0,0,0,0" Grid.Column="1" Background="{x:Null}">
+            <InkCanvas x:Name="Memo" Width="Auto" Height="Auto" Background="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                       DefaultDrawingAttributes="{Binding ElementName=Palette, Path=CurrentColor, Converter={StaticResource InkColorConverter}}" PreviewMouseRightButtonDown="Memo_PreviewMouseRightButtonDown"/>
+        </Border>
+        <Rectangle HorizontalAlignment="Right" Margin="0,0,0,0" x:Name="ColorView" VerticalAlignment="Top" Width="50" Height="50" Fill="{Binding ElementName=Palette, Path=CurrentColor, Converter={StaticResource ColorConverter}}"  Stroke="#FF000000" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Right"  Name="textBlock1" VerticalAlignment="Bottom" FontSize="20" >blog.naver.com/shine10ee</TextBlock>
+    </Grid>
+</Window>
